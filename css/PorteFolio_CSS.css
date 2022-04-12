@@ -16,7 +16,7 @@ header {
 
 div.quiSuisJe {
 
-
+  font-style: normal;
   text-align: center;
   color: white;
   align-items: center;
@@ -26,7 +26,7 @@ div.quiSuisJe {
 
 div.mesProjet {
   flex-direction: row;
-
+  font-style: normal;
   text-align: center;
   color: white;
 
