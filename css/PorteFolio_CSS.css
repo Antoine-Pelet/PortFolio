@@ -1,96 +1,149 @@
-@charset "utf-8";
-
-/* CSS Document */
-
-
 body {
-  margin: 0px;
- /*background: no-repeat;*/
-  background-image: url("../image/fond.jpg");
-
-  background-size: 100%;
-
- /* background-size: 100%;
-  height: 100%;
-  width: 100%;*/
-
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    align-items: center;
 }
 
+/********************************Header : Menu ********************************/
 header {
-  background-color: #000000;
-  margin: 0;
-}
-
-div.quiSuisJe {
-
-  font-style: normal;
-  text-align: center;
-  color: white;
-  align-items: center;
-
+    margin: 0px;
+    padding-top: 20px;
+    background-color: black;
+    padding-bottom: 0%;
 
 }
-
-div.mesProjet {
-  flex-direction: row;
-  font-style: normal;
-  text-align: center;
-  color: white;
-
-
-
-}
-
-footer {
-  margin: 0;
-  color: white;
-  background-color: #000000;
-  font-style: normal;
-  text-align: center;
-  margin-bottom: 0;
-
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-
 
 h1 {
-  margin-top: 0px;
-  margin-bottom: 2px;
-  font-style: normal;
-  text-align: center;
-  font-size: 6rem;
-  color: white;
-  border-style: double 20px;
-
+    font-size: 4rem;
+    border-style: double 20px;
 }
-
-
-h2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: center;
-  font-size: 2rem;
-  color: #ffffff;
-}
-
-a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
 
 .menu {
-  text-align: center;
-  margin-top: 20px;
-  height: 51px;
-
+    height: 52px;
+    padding-bottom: 0%;
 }
 
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 0%;
+}
 
+/**************************Body: Présentation*******************************/
+
+.presentation {
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/fond.png");
+    background-size: cover;
+    height: 46rem;
+}
+.presentation .contenu {
+    margin: 0%;
+}
+p {
+    margin :0;
+}
+.presentation h2 {
+    margin: 0%;
+    font-size: 4rem;
+    border-style: double 20px;
+}
+
+/**************************Body:Activité*******************************/
+
+.mesProjet{
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/fond.png");
+    background-size: cover;
+    height: 46rem;
+}
+.mesProjet .contenu {
+    margin: 0%;
+}
+p {
+    margin :0;
+}
+.mesProjet h2 {
+    margin: 0%;
+    font-size: 4rem;
+    border-style: double 20px;
+}
+
+/**************************Body:me contacter*******************************/
+
+.meContacter{
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/fond.png");
+    background-size: cover;
+    height: 46rem;
+}
+.meContacter .contenu {
+    margin: 0%;
+}
+p {
+    margin :0;
+}
+.meContacter h2 {
+    margin: 0%;
+    font-size: 4rem;
+    border-style: double 20px;
+}
+
+/**************************Body:Source*******************************/
+
+.Source{
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/fond.png");
+    background-size: cover;
+    height: 46rem;
+}
+.Source .contenu {
+    margin: 0%;
+}
+p {
+    margin :0;
+}
+.Source h2 {
+    margin: 0%;
+    font-size: 4rem;
+    border-style: double 20px;
+}
+
+/********************************Footer****************************************/
+footer {
+    margin: 0;
+
+    background-color: #000000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0.58%;
+}
+
+.footer p {
+    padding-top: 14px;
+    margin: 0%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*******************************************************************************/
+
+/**************************************/
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
@@ -158,6 +211,3 @@ a {
   top: -16px;
   transform: translateY(-100%);
 }
-
-
-
