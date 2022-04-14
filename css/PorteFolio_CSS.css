@@ -76,6 +76,10 @@ p {
     font-size: 4rem;
     border-style: double 20px;
 }
+.mesProjet a {
+    text-decoration: none;
+    color: #000000;
+}
 
 /**************************Body:me contacter*******************************/
 
