@@ -257,3 +257,6 @@ footer {
       display: none;
     }
   }
+  .arrows .arrow__next{
+  position: sticky;
+  }
