@@ -56,30 +56,7 @@ p {
     border-style: double 20px;
 }
 
-/**************************Body:Activité*******************************/
 
-.mesProjet{
-    margin: 0;
-    padding: 0;
-    background-image: url("../image/fond.png");
-    background-size: cover;
-    height: 46rem;
-}
-.mesProjet .contenu {
-    margin: 0%;
-}
-p {
-    margin :0;
-}
-.mesProjet h2 {
-    margin: 0%;
-    font-size: 4rem;
-    border-style: double 20px;
-}
-.mesProjet a {
-    text-decoration: none;
-    color: #000000;
-}
 
 /**************************Body:me contacter*******************************/
 
@@ -145,73 +122,3 @@ footer {
     color: #ffffff;
 }
 
-/*******************************************************************************/
-
-/**************************************/
-.timeline {
-  white-space: nowrap;
-  overflow-x: hidden;
-}
-
-.timeline ol {
-  font-size: 0;
-  width: 100vw;
-  padding: 250px 0;
-  transition: all 1s;
-}
-
-.timeline ol li {
-  position: relative;
-  display: inline-block;
-  list-style-type: none;
-  width: 160px;
-  height: 3px;
-  background: #fff;
-}
-
-.timeline ol li:last-child {
-  width: 280px;
-}
-
-.timeline ol li:not(:first-child) {
-  margin-left: 14px;
-}
-
-.timeline ol li:not(:last-child)::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: calc(100% + 1px);
-  bottom: 0;
-  width: 12px;
-  height: 12px;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  background: #F45B69;
-}
-
-.timeline ol li div {
-  position: absolute;
-  left: calc(100% + 7px);
-  width: 280px;
-  padding: 15px;
-  font-size: 1rem;
-  white-space: normal;
-  color: black;
-  background: white;
-}
-
-.timeline ol li div::before {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
-
-.timeline ol li:nth-child(odd) div {
-  top: -16px;
-  transform: translateY(-100%);
-}
